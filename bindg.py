@@ -4,7 +4,7 @@ import os
 import sys
 import configset 
 THIS_PATH = os.path.dirname(__file__)
-configname = os.path.join(THIS_PATH, 'conf.ini')
+configname = os.path.join(THIS_PATH, 'bindg.ini')
 EXT = configset.read_config4('DB', 'EXT', configname)[0]
 if EXT == None:
 	EXT = "dns"
